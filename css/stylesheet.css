@@ -2590,3 +2590,81 @@ input[type="search"]:focus ~ .search-image {
 .modal-not-show {
   display: none;
 }
+
+
+/* 1 задание: вывела вперед новую деталь в популярных товарах */
+.catalog-item.new-item {
+    float: left
+} 
+
+/* 2 задание: сделала цвет кнопки красным, для тени поменяла цвет */
+.catalog-button.catalog-item-buy {
+    background-color: #e83d47;
+    box-shadow: inset 0 -3px 0 0 #e83d47;
+}
+
+/* 3 задание: поменяла цвет меню, переделала ховеры, поменяла цвета надписей */
+
+.header-bottom-panel {
+    background-color: #795548;
+    border-bottom-color: #4caf50;
+} 
+
+.header-bottom-panel a:hover {
+    background-color: #a56047db;
+}
+
+.header-bottom-panel a {
+    color: #4caf50;
+}
+
+/* 4 задание: поменяла цвет плейсхолдера */
+
+#search::placeholder {
+color: #e83d47;
+}
+
+/* 5 задание: скрыла корзину */
+a.header-upper-cart {
+    display: none;
+} 
+
+/* 6 задание: скрыла нечетные плитки */
+
+a.brands-logo:nth-child(odd) {
+    display: none;
+}
+
+/* 7 задание: скрыла описание для вкладки Кредит */
+
+.service-details-info.service-credit-info {
+    display: none
+} 
+
+/* 8 задание: сделала поменьше отступы, в первой строке списка поменяла цвета  */
+
+.footer-upper-panel {
+    margin-bottom: 10px;
+}
+
+.footer-middle-panel {
+    margin-bottom: 10px;
+}
+
+.footer-bottom-panel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-panel-contacts li:nth-child(2n+1) a{
+   color: #189ccf
+}
+
+.footer-panel-contacts li:nth-child(even) a{
+   color: #18cf50
+}
+
+/* 9 задание: скрыла иконку внутри кнопки */
+.footer-social-btn.footer-social-fb::before {
+    display: none
+}
